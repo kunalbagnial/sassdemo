@@ -24,6 +24,13 @@ body #bg {
   }
 }
 
+@media (max-width: 468px) {
+  body #bg {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+}
+
 body header a {
   display: block;
   padding: 15px;
@@ -115,6 +122,12 @@ main section#primary h1 {
     width: 30%;
     font-size: 4em;
     line-height: .9;
+  }
+}
+
+@media (max-width: 468px) {
+  main section#primary h1 {
+    font-size: 2em;
   }
 }
 
